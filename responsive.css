@@ -6,7 +6,7 @@
   }
   /* Ajustar main para que no haya overflow en Y */
   .main {
-    height: calc(100vh - 165px);
+    height: calc(100svh - 165px);
   }
   .login-image-one {
     display: none;
