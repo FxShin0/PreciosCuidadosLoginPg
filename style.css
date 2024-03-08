@@ -42,7 +42,7 @@ body {
   );
   width: 100%;
   color: var(--white-p);
-  height: calc(100svh - 105px);
+  height: calc(100vh - 105px);
   display: flex;
   justify-content: center;
   align-items: center;
