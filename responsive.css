@@ -58,4 +58,56 @@
     font-size: 20px;
   }
 }
+/* Ajuste tamaño de la card (mas que nada para celulares en horizontal) */
+@media (max-height: 590px) {
+  .login-image-one {
+    display: none;
+  }
+  .login {
+    height: 200px;
+    width: 300px;
+  }
+  .formulario-input {
+    font-size: 13px;
+  }
+  .inputs {
+    height: 15px;
+    width: 120px;
+  }
+  .registro-recup {
+    font-size: 13px;
+  }
+  .btn-login {
+    padding: 5px 15px;
+  }
+}
+/* Ajuste de navbar y footer para celulares muy chicos en horizontal */
+@media (max-height: 350px) {
+  .navbar {
+    height: 40px;
+  }
+  footer {
+    height: 25px;
+    flex-direction: row;
+  }
+  .main {
+    height: calc(100vh - 65px);
+  }
+  .footer-links a {
+    font-size: 10px;
+  }
+  .footer-redes a {
+    font-size: 10px;
+  }
+  .footer-main-page-link {
+    font-size: 10px;
+  }
+  .logo-title h1,
+  .logo {
+    font-size: 25px;
+  }
+  .regresar {
+    font-size: 14px;
+  }
+}
 /* La pagina se despliega correctamente hasta un ancho de 336px */
